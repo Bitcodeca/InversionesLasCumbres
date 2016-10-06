@@ -128,7 +128,11 @@
                 
                 <div class="parallax-container" id="p1">
                     <div class="parallax">
-                        <img src="img/f1 2.jpg">
+                        <img src="img/f14.jpg">
+                    </div>
+                    <div class="textbanner  wow fadeIn">
+                        <h1 class="center-align fondobanner">IMPORTACIÓN<br> EXPORTACIÓN <br>Y DISTRIBUCIÓN DE ALIMENTOS</h1>
+                        <!--<h1 class="center-align fondobanner">Importación, exportación y distribución de alimentos</h1>-->
                     </div>
                 </div>
             </div>
@@ -147,7 +151,7 @@
                     <hr class="margintop75" style="border-top: 3px solid #6F2C91; width:50%;">
                     <div class="row marginrow margintop75">
                         <div class="col-sm-12 col-md-6  wow fadeIn">
-                            <h1 class="color1 center-align margintop0">OFRECEMOS</h1>
+                            <h2 class="color1 center-align margintop0">OFRECEMOS</h2>
                             <p> Entre nuestros productos más destacados contamos con los siguientes:</p>
                             <ul class="listadeproductos">
                               <li>Manzanas</li>
@@ -209,7 +213,7 @@
             <div class="container z-depth-2">
                 <div class="parallax-container2">
                     <div class="parallax">
-                        <img src="img/f8.jpg">
+                        <img src="img/f9.jpg">
                     </div>
                 </div>
             </div>
@@ -217,7 +221,7 @@
             <div class="container white z-depth-2">
                 <section class="paddinginnercont scrollspy" id="galeria">
                     <div class="row marginrow margintop50  wow fadeIn">
-                        <h1 class="color1 center-align marginbot5">GALERIA</h1>
+                        <h2 class="color1 center-align marginbot5">GALERIA</h2>
                         <hr style="border-top: 3px solid #6F2C91; width:35%; margin-top:10px; ">
                     </div>
                     <div class="row marginrow  wow fadeIn">
@@ -238,7 +242,7 @@
                 <section class="paddinginnercont scrollspy" id="contacto">
                     <div class="row marginrow">
                         <div class="col-md-12 wow fadeIn">
-                            <h1 class="letra color2 center-align marginbot5">CONTACTO</h1>
+                            <h2 class="letra color2 center-align marginbot5">CONTACTO</h2>
                             <hr style="border-top: 3px solid #6F2C91; width:35%; margin-top:10px; ">
                         </div>
                     </div>
@@ -248,7 +252,10 @@
                                 <table style="width:100%">
                                     <tr>
                                         <th class="widthth"><i class="med material-icons">call</i></th>
-                                        <th><p>+56 22 2351348</p></th> 
+                                        <th>
+                                            <p>+56 22 2351348</p>
+                                            <p>+56 9 85924557</p>
+                                        </th> 
                                     </tr>
                                 </table>
                             </div>
@@ -256,7 +263,13 @@
                                 <table style="width:100%">
                                     <tr>
                                         <th class="widthth"><i class="med material-icons">email</i></th>
-                                        <th><p>contacto@invlascumbres.cl</p></th> 
+                                        <th>
+                                            <p>administracion@invlascumbres.cl</p>
+                                            <p>ventas@invlascumbres.cl</p>
+                                            <p>fpita@invlascumbres.cl</p>
+                                            <p>rpetit@invlascumbres.cl</p>
+                                            <p>ubahamondes@invlascumbres.cl</p>
+                                        </th> 
                                     </tr>
                                 </table>
                             </div>
@@ -291,16 +304,16 @@
                             <div ng-controller="ContactController">
                                 <form ng-submit="submit(contactform)" name="contactform" method="post" role="form">
                                     <span class="input-field" ng-class="{ 'has-error': contactform.nombre.$invalid && submitted }">
-                                        <input id="nombre" type="text" class="validate" ng-model="formData.nombre" placeholder="NOMBRE" >
+                                        <input id="nombre" type="text" class="validate" ng-model="formData.nombre" placeholder="Nombre" >
                                     </span>
                                     <span class="input-field" ng-class="{ 'has-error': contactform.email.$invalid && submitted }">
-                                        <input id="email" type="email" class="validate" ng-model="formData.email" placeholder="EMAIL">
+                                        <input id="email" type="email" class="validate" ng-model="formData.email" placeholder="Email">
                                     </span>
                                     <span class="input-field" ng-class="{ 'has-error': contactform.telefono.$invalid && submitted }">
-                                        <input id="telefono" type="number" class="validate" ng-model="formData.telefono" placeholder="TELÉFONO">
+                                        <input id="telefono" type="number" class="validate" ng-model="formData.telefono" placeholder="Teléfono">
                                     </span>
                                     <div class="input-field" ng-class="{ 'has-error': contactform.message.$invalid && submitted }">
-                                        <textarea id="message" class="materialize-textarea" ng-model="formData.message" placeholder="MENSAJE"></textarea>
+                                        <textarea id="message" class="materialize-textarea" ng-model="formData.message" placeholder="Mensaje"></textarea>
                                     </div>
                                     <div class="center-align margintop25 marginbot10">
                                         <button class="waves-effect btn-enviar waves-light btn"  type="submit" ng-disabled="submitButtonDisabled">ENVIAR</button>
