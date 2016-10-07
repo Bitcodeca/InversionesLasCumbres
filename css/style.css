@@ -1,7 +1,6 @@
 @viewport{zoom:1.0;width:device-width;}
 @-ms-viewport { width: device-width; }
 @font-face { font-family: 'MyWebFont'; src: url('Futura (Light).ttf')  format('truetype'); }
-/*@font-face { font-family: 'MyWebFont2'; src: url('FuturaStd-Heavy 2.otf')  format('truetype'); }*/
 
 body { -ms-overflow-x:hidden; overflow-X:hidden; background: linear-gradient(180deg, #425ca6, #bbcb34); }
 
