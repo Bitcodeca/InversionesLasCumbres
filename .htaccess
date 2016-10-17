@@ -1,4 +1,3 @@
-ErrorDocument 404 /404page.html
 <IfModule mod_deflate.c>
   # Compress HTML, CSS, JavaScript, Text, XML and fonts
   AddOutputFilterByType DEFLATE application/javascript
